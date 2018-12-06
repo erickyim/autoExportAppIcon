@@ -72,6 +72,9 @@ img11.save(outPutPath + 'appIcon76x76.png',"png")
 img12.save(outPutPath + 'appIcon76x76@2x.png',"png")
 img13.save(outPutPath + 'appIcon83.5x83.5@2x.png',"png")
 
+# ios-marketing
+originImg.save(outPutPath + 'appIcon1024x1024.png',"png")
+
 # 创建Contents.json文件
 
 content = '''
@@ -184,6 +187,12 @@ content = '''
       "idiom" : "ipad",
       "filename" : "appIcon83.5x83.5@2x.png",
       "scale" : "2x"
+    },
+    {
+      "idiom" : "ios-marketing",
+      "filename" : "appIcon1024x1024.png",
+      "size" : "1024x1024",
+      "scale" : "1x"
     }
   ],
   "info" : {
